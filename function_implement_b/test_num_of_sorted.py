@@ -3,7 +3,7 @@ import unittest
 from num_of_sorted import get_num_of_sorted
 
 
-class TestPalindromes(unittest.TestCase):
+class TestGetNumOfSorted(unittest.TestCase):
 
     def test_ex0(self):
         self.assertEqual(get_num_of_sorted(["abc", "bce", "cae"]), 1)
